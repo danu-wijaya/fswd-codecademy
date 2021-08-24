@@ -22,3 +22,11 @@ In the next few exercises, we’ll see how blocks define the scope of variables.
 
 
  */
+
+const city = "New York City";
+const logCitySkyline = () => {
+  let skyscraper = "Empire State Building";
+  return "The stars over the " + skyscraper + " in " + city;
+};
+
+console.log(logCitySkyline());
